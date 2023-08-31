@@ -13,9 +13,9 @@ Logo:
 
 Creado desde [Figma](https://www.figma.com/file/W2zBNJSetru9lUmBVAnFoc/El-buen-Sabor-protos?type=design&node-id=0%3A1&mode=design&t=3ebbFV1FCfetOOrg-1)
 
-Tipografia:
+Tipografia: Changa
 
-Color:
+Color: CA5310 (Naranja), FFFFFF (Blanco), 691E106 (Marrón)
 ## Integrantes del grupo:
 * [Melanie Argote](https://github.com/Melanie-Argote)
 * [Facundo Sampieri](https://github.com/sampi74)
