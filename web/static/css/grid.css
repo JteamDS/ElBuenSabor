@@ -12,9 +12,14 @@
   height: 112px;
   line-height: 78px;
 }
+.item-row{
+  height: 50px;
+  line-height: 20px;
+}
 
 .title-row {
   border-top: none;
+  font-size: 16px;
 }
 
 .themed-container {
@@ -52,7 +57,7 @@
 
 main {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 0 40px;
 }
 
