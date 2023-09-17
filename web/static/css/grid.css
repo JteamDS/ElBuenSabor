@@ -55,3 +55,20 @@ body {
   max-width: 1200px;
   padding: 0 40px;
 }
+
+select.form-control:focus {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+select.form-control {
+  width: 100%;
+  height: 36px;
+  border-color: #CA5310;
+}
+
+.custom-left-align{
+  display: flex;
+  align-items: center;
+}
