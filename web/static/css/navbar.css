@@ -1,0 +1,92 @@
+.navbar{
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+    width: 100%;
+    border-bottom: solid 4px;
+    border-color: #CA5310;
+    padding: 16px 96px;
+}
+.navbar-toggler{
+    border: solid #CA5310 2px;
+}
+.boton-barra{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: #ca5310;
+    font-family: 'Changa', sans-serif;
+    border: solid 2px;
+    font-size: 18px;
+}
+.boton-barra-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8px 0px;
+    width: 120px;
+}
+.boton-casa{
+    padding-top: 4px;
+}
+.boton-barra-circular{
+    padding: 8px 9px;
+    border-radius: 40px;
+    z-index: 10;
+}
+.barra-iconos{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.casa{
+    padding: 9px;
+    color: #CA5310;
+}
+.nav-link{
+    color: #58453B;
+    padding: 2px;
+    border-bottom: solid #58453B;
+    font-family: 'Changa', sans-serif;
+    font-size: 20px;
+    margin: 0px 4px;
+}
+.barra-opciones{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 122px;
+
+}
+.lupaa{
+    color: #CA5310;
+}
+.icono-casa{
+    margin-right: 10px;
+}
+.boton-busqueda{
+    display: flex;
+}
+.boton-busqueda-texto{
+    border: solid #CA5310 2px;
+    border-radius: 40px;
+    position: relative;
+    left: 46px;
+}
+.barra-opciones-admin{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+}
+.nombre-admin{
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+

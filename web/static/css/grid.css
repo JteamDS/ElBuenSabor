@@ -50,7 +50,7 @@
   color: #ca5310;
 }
 
-body {
+main {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 40px;
@@ -71,4 +71,10 @@ select.form-control {
 .custom-left-align{
   display: flex;
   align-items: center;
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  border: none; /* Remove the border if not needed */
 }
