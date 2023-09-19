@@ -1,0 +1,74 @@
+main{
+    padding-top: 130px;
+    font-family: 'Changa', sans-serif;
+}
+.misdatos{
+    padding: 40px 16px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    border: solid 4px #8f250c;
+    padding: 32px 40px;
+    gap: 24px;
+    border-radius: 15px;
+    max-width: 1000px;
+}
+.contenedor-datosp{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contenedor-datosp-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+.input-contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    font-size: 32px;
+    
+}
+label{
+    font-size: 20px;
+}
+.input-datos{
+    border-radius: 20px;
+    border: solid 1px;
+    width: 320px;
+    padding: 3.5px 10px;
+}
+.input-normal{
+    margin-right: 36px;
+}
+.depto{
+    padding: 0px 10px;
+    margin-right: 36px;
+}
+.boton{
+    font-size: 24px;
+    background-color: #ca5310;
+    border: solid 2px #fff;
+    border-radius: 9px;
+    padding: 6px 50px;
+    color: #fff;
+    margin-top: 10px;
+}
+.contenedor-boton{
+    width: 320px;
+    text-align: center;
+    margin-left: 26px;
+}
+.contenedor-input{
+    display: flex;
+}
+.boton-editar{
+    border: none;
+    background: none;
+}

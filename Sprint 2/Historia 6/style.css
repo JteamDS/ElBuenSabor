@@ -1,0 +1,322 @@
+.registrarNuevoEmpleado{
+    width: 100%;
+    height: 1024px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.formulario-principal{
+    width: 100%;
+    height: 886px;
+    max-width: 1440px;
+    grid-column-gap: 64px;
+    grid-row-gap: 64px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 64px 24px;
+    display: flex;
+    position: absolute;
+    top: 39px;
+    left: 0;
+}
+
+.formulario-contenedor-2{
+    
+    height: 550px;
+    width: 780px;
+    max-width: 1148px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background: #e7e7e7;
+}
+
+.formulario-caja-2{
+    width: 100%;
+    height: 662px;
+    max-width: 1148px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+
+.formulario{
+    width: 100%;
+    height: 612px;
+    max-width: 1865px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 82px;
+}
+
+.nombre-2{
+    
+    
+    height: 65px;
+    max-width: 555px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    width: 300px;
+    top:330px;
+
+}
+
+.form-block-label{
+    color: #000;
+    font-family: 'Changa', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+.form-text-input{
+    width: 100%;
+    height: 30px;
+    max-width: 230px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    
+
+}
+.form-text-input1{
+    width: 100%;
+    height: 30px;
+    max-width: 230px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    background-color: #CABABA;
+    border: 1px solid #000;
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+.apellido-2{
+    
+    width: 300px;
+    height: 65px;
+    max-width: 488px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 365px;
+    
+
+}
+
+.email-2{
+    
+    width: 300px;
+
+    height: 65px;
+
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.direccion-2{
+    
+    width: 300px;
+
+    height: 65px;
+
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.telefono{
+    
+    width: 300px;
+
+    height: 65px;
+    max-width: 488px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    object-fit: contain;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    
+    top: 74px;
+
+    left: 365px;
+}
+
+.clave-2{
+    
+    width: 300px;
+
+    height: 94px;
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.departamento{
+    
+    width: 300px;
+
+    height: 94px;
+    max-width: 488px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    
+    top: 146px;
+
+    left: 365px;
+}
+
+.btnguardar{
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    left: 300px;
+
+}
+
+.button{
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: #CA5310;
+    border: 1px solid #000;
+    border-radius: 9px;
+    /*flex: 0 auto;*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    display: inline-block;
+    position: absolute;
+
+    left: 113px;
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    
+    top: 5px;
+    padding-right: 60px;
+    padding-left: 60px;
+
+}
+
+
+.iniciar-sesi-n:hover{
+    background-color:white;
+    color:#CA5310;
+    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.text{
+    color: #000;
+    font-family: 'Changa', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 120%;
+    position: absolute;
+    top: 58px;
+    left: 74px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    font-size: 14px;
+}
+
+.textochico{
+    color: #0C08B5;
+    font-family: 'Changa', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 120%;
+    position: absolute;
+    top: 280px;
+    left: 14px;
+}
