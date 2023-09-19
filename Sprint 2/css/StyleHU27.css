@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar-2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #CA5310;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    padding-top: 100px;
+}
+li a {
+    display: block;
+    color: #ffffff; /*color de letra*/
+    padding: 15px 18px;
+    text-decoration: none;
+    text-align:center;
+}
+.sidebar-2 .desplegable{
+    background-color: #ffffff75;
+    color: #CA5310; /* no lo toma*/
+}
+  
+li a:hover:not(.active) {
+    background-color: #ece3e391;
+    color: white;
+}
+li {
+    border-bottom: 1px solid rgba(0,0,0, 0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+}
+/*separacion y color iconos*/
+i{
+    margin: 0 18px;
+}
+#mainContent{
+    margin-left: 17%; /*hace q el main content sea mas chico que el ancho de la barra*/
+    padding: 1px 16px;
+    height: 1000px;
+}
+/*titulo  y margen*/
+#mainContent h1{
+    margin-left: 33%;
+    color: #CA5310;
+    margin-top: 10%;
+}
+.sidebar-2 li .desplegable{
+    display: block;
+}
+.sidebar-2 li .sub-menu{
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar-2 li .sub-menu a{
+    font-size: 15px;
+}
+/*productos con blanco*/
+.sidebar-2 li .sub-menu a.active{
+    background-color: #dadada42;
+}
+/* para mover la imagen*/
+#mainContent .imagen{
+   position: absolute;
+   top: 55%;
+   left: 54%;
+   transform: translate(-35%, -25%);
+   max-width: 100%;
+}
+/*Botones categoria, fechas*/
+#desde, #hasta {
+    background-color:  #ffffff;
+    color: #000000;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 9px rgba(0,0,0,0.5);
+}
+.botones-desplegables{
+    position: absolute;
+    top: 27%;
+    left: 55%;
+}
+
+.excel {
+    background-color: #ffffff; /* Green */
+    border: 2px solid;
+    border-radius: 10px;
+    color: #CA5310;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    left: 85%;
+}
+.excel:hover {
+    background-color: #CA5310;
+    color: white;
+    border: 2px solid #CA5310;
+}
+.clienteb {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 36%;
+    left: 22%;
+}
+
+.nomb-clientes{
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    line-height: 50px;
+}
+/*Referencias de colores*/
+.Ref1 {
+    position: absolute;
+    top: 36%;
+    left: 33%;
+}
+.Ref2{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+}
+/* se supone q esto hace la barra apta para telefonos (@media screen) */
+@media screen and (max-width: 900px) {
+    ul.sidebar-2 {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.sidebar-2 li a {
+      float: left;
+      padding: 15px;
+    }
+    
+    div.content {margin-left: 0;}
+}
+@media screen and (max-width: 768px) {
+    ul.sidebar-2 {
+      text-align: center;
+      float: none;
+      width: 50px;
+      padding: 10px;
+    }
+}

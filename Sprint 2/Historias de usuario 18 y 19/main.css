@@ -1,0 +1,193 @@
+.tableclass {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5%;
+
+}
+body{
+    font-family: 'Changa', sans-serif !important;
+}
+table,
+tr,
+th,
+td {
+    border: 1px solid;
+    border-color: #CA5310;
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color: #CA5310;
+    color: white;
+}
+
+.thclasss {
+    padding: 20px 45px;
+}
+
+td {
+    text-align: center;
+}
+
+.tdclass {
+    padding: 20px;
+}
+
+.botonestabla {
+    text-align: center;
+}
+
+.botonrojo {
+    display: block;
+    margin: 10px;
+    background-color: red;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 20%;
+    color: white;
+    padding: 5px 20px;
+}
+
+.botonrojo:hover {
+    background-color: white;
+    color: red;
+}
+
+.botonverdetalle {
+    margin: 10px;
+    background-color: #F8E750;
+    border: 1px solid;
+    border-color: #F8E750;
+    border-radius: 20%;
+    color: black;
+    padding: 5px 20px;
+}
+
+.botonverdetalle:hover {
+    background-color: white;
+    color: yellow;
+}
+
+.botonfactura {
+    display: block;
+    margin: 10px;
+    background-color: #CA5310;
+    border: 1px solid;
+    border-color: #CA5310;
+    border-radius: 20%;
+    color: white;
+    padding: 5px 20px;
+}
+
+.botonfactura:hover {
+    background-color: white;
+    color: #CA5310;
+}
+
+.boton-modal {
+    padding: 10px;
+}
+
+.boton-modal label {
+    padding: 12px;
+    background-color: #F8E750;
+    color: black;
+    border: 1px solid;
+    border-color: #F8E750;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+.boton-modal label:hover {
+    background-color: white;
+    color: yellow;
+}
+
+#btn-modal {
+    display: none;
+}
+
+.conteiner-modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal:checked~.conteiner-modal {
+    display: flex;
+}
+
+
+.cerrar-modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+.boton-modal2 {
+    padding: 10px;
+}
+
+.boton-modal2 label {
+    padding: 12px;
+    background-color: #CA5310;
+    color: white;
+    border: 1px solid;
+    border-color: #CA5310;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+.boton-modal2 label:hover {
+    background-color: white;
+    color: yellow;
+}
+
+#btn-modal2 {
+    display: none;
+}
+
+.conteiner-modal2 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal2:checked~.conteiner-modal2 {
+    display: flex;
+}
+
+
+.cerrar-modal2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

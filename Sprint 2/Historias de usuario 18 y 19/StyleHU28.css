@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar-2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #CA5310;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    padding-top: 100px;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    /*color de letra*/
+    padding: 15px 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sidebar-2 .desplegable {
+    color: #CA5310;
+}
+
+li a:hover:not(.active) {
+    background-color: #ece3e391;
+    color: white;
+}
+
+li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+
+/*separacion y color iconos*/
+i {
+    margin: 0 18px;
+}
+
+#mainContent {
+    margin-left: 17%;
+    /*hace q el main content sea mas chico que el ancho de la barra*/
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+/*titulo  y margen*/
+#mainContent h1 {
+    margin-left: 29%;
+    color: #CA5310;
+    margin-top: 10%;
+}
+
+.sidebar-2 li .desplegable {
+    display: block;
+}
+
+.sidebar-2 li .sub-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-2 li .sub-menu a {
+    font-size: 15px;
+}
+
+/*productos con blanco*/
+.sidebar-2 li .sub-menu a.active {
+    background-color: #dadada42;
+}
+
+
+.botones-desplegables {
+    position: absolute;
+    top: 28%;
+    left: 40%;
+}
+
+.blanco {
+    background-color: #ece3e391;
+    ;
+}
+
+/* se supone q esto hace la barra apta para telefonos (@media screen) */
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    ul.sidebar-2 li a {
+        float: left;
+        padding: 15px;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul.sidebar-2 {
+        text-align: center;
+        float: none;
+        width: 50px;
+        padding: 10px;
+    }
+}
