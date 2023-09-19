@@ -1,0 +1,385 @@
+.registrarNuevoEmpleado{
+    width: 100%;
+    height: 1024px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.formulario-principal{
+    width:100%;
+    height: 886px;
+    max-width: 1440px;
+    grid-column-gap: 64px;
+    grid-row-gap: 64px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 64px 24px;
+    display: flex;
+    position: absolute;
+    top: 39px;
+    left: 0;
+
+}
+
+.formulario-contenedor{
+    width: 100%;
+    height: 792px;
+    max-width: 1148px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    object-fit: contain;
+    border:1px solid #000;
+    border-radius: 70px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position:relative;
+
+}
+
+.formulario-caja{
+    width:100%;
+    height: 662px;
+    max-width: 1148px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    object-fit: contain;
+    flex-direction: column;
+    justify-content: flex-start;
+    display:flex;
+    position: relative;
+    top:138px;
+    left:0;
+}
+
+.formulario{
+    width: 100%;
+    height: 612px;
+    max-width: 1865px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 20px;
+    left: 82px;
+}
+
+.nombre{
+    width: 100%;
+    height: 94px;
+    max-width: 555px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.form-block-label{
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.form-text-input{
+    width: 100%;
+    height: 40px;
+    max-width: 397px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    font-size: 20px;
+}
+
+.email{
+    width: 100%;
+    height: 94px;
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    object-fit: contain;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+}
+
+.apellido{
+    width: 100%;
+    height: 94px;
+    max-width: 588px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    object-fit: contain;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 0;
+    left: 555px;
+}
+
+.telefono{
+    width: 100%;
+    height: 94px;
+    max-width: 488px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    object-fit: contain;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 94px;
+    left: 555px;
+}
+
+.departamento{
+    width: 100%;
+    height: 94px;
+    max-width: 488px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 188px;
+    left: 555px;
+}
+
+.repetirClave{
+    width: 100%;
+    height: 94px;
+    max-width: 488px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 306px;
+    left: 555px;
+}
+
+.btnguardar{
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 508px;
+    left: 650px;
+}
+
+
+.iniciar-sesi-n{
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 199px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: #CA5310;
+    border: 1px solid #000;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 58px;
+    display: flex;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.rol{
+    width: 100%;
+    height: 94px;
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 480px;
+    left: 0;
+}
+
+.text{
+    color:#000;
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+    position: absolute;
+    top: 58px;
+    left: 74px;
+    
+}
+
+.requisitos{
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: #edef91;
+    border: 1px dashed #000;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 15px;
+    width: 346px;
+    height: 61;
+}
+.caracteristica{
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+#text2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.formulario-contenedor-2{
+    width: 100%;
+    height: 792px;
+    max-width: 1148px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display:flex;
+    position: relative;
+    background: #e7e7e7;
+}
+
+
+.formulario-caja-2{
+    width: 100%;
+    height: 662px;
+    max-width: 1148px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+
+.nombre-2{
+    width: 100%;
+    height: 94px;
+    max-width: 555px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+}
+
+.email-2{
+    width: 100%;
+    height: 94px;
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+}
+
+.direccion-2{
+    width: 100%;
+    height: 94px;
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+}
+
+.clave-2{
+    width: 100%;
+    height: 94px;
+    max-width: 456px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+}
+
+.apellido-2{
+    width: 100%;
+    height: 94px;
+    max-width: 488px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display:flex;
+    position: absolute;
+    top: 0;
+    left: 555px;
+}
+
+
+.btn-close{
+    color: black;
+}
+select{
+    width: 100%;
+}
+
+@media screen and (max-widht: 991px){
+    .apellido{
+        object-fit: contain ;
+        object-position: 0% 50%;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+}

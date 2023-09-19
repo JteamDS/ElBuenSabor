@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    /*color de fondo*/
+    background-color: white;
+    /*letra*/
+    font-family: 'Montserrat', sans-serif;
+    /*color del texto*/
+    color:black;
+    position: fixed;
+}
+
+#ingrese{
+    text-align:center;
+    font-size: 150%;
+    line-height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 140px;
+}
+
+.controles{
+    width: 460px;
+}
+#correo {
+    height: min-content;
+    padding: 5px 10px;
+    outline: solid 0px #000;
+    outline-offset: -1px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    color: #574e4e;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    margin:0px 100px 2px  50px;
+}
+#pwd{
+    height: min-content;
+    padding: 5px 10px;
+    outline: solid 0px #000;
+    outline-offset: -1px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    color: #574e4e;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    white-space: nowrap;
+    flex-direction: column;
+    margin: 30px 100px 2px 50px;
+}
+
+
+#olvido{
+    color: blue;
+    font-size: 90%;
+    margin: 20px 2px 2px 50px;
+    
+}
+*{
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+.formulario-menu{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    width: 566px;
+    height: 792px;
+    outline: solid 1px #000;
+    outline-offset: -1px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+
+
+
+#inicio{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    background-color: #f20000f7;
+    border: none;
+    width: min-content;
+    height: min-content;
+    padding: 19px 58px;
+    outline: solid 1px #000;
+    outline-offset: -1px;
+    border-radius: 40px;
+    background-color: #f20000f7;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 160px;
+}
+.formu{
+    background-color: #e7e7e7;
+}
+#btn2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    background-color: #000;
+    border: none;
+    width: min-content;
+    height: min-content;
+    padding: 19px 58px;
+    outline: solid 1px #000;
+    outline-offset: -1px;
+    border-radius: 40px;
+    background-color: #000;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 130px;
+}
+
+#btn3{
+    width: 446px;
+    height: 73px;
+    outline: solid 1px #000;
+    outline-offset: -1px;
+    border-radius: 20px;
+    background-color: #1732c2;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    margin-left: 120px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 61px;
+    
+}
+
+.linea1{
+    width: 203px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    outline: solid 1px #a39e9e;
+    box-shadow: 0px 4px 8px 0px #00000040;
+    margin-top: -605px;
+    margin-bottom: 300px;
+    margin-right: 30px;
+    margin-left: 183px;
+}
+
+.linea2{
+    transform-origin: bottom left;
+    width: 475px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    outline: solid 1px #a39e9e;
+    box-shadow: 0px 4px 8px 0px #00000040;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 400px;
+    margin-bottom: 200px;
+    margin-right: 30px;
+    margin-left: 45px;
+}
+
+
+
