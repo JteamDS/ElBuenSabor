@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Changa', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 .sidebar-2 {
     list-style-type: none;
@@ -12,7 +11,7 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 li a {
     display: block;
