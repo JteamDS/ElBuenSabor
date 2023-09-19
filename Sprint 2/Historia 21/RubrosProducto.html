@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="EstiloStockProducto.css">
+    <title>El buen sabor</title>
+    <link rel="stylesheet" href="EstiloRubrosProductos.css">
     <script src="https://kit.fontawesome.com/92201a9b0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="../css/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
@@ -41,22 +41,22 @@
             </div>
           </div>
         </nav>
-      </header>    </div>
+      </header>        </div>
     <!-- Este div solo lo hicimos para agrupar a los hermanos sidebar y main content -->
     <div id="container"> 
         <div id="sidebar">
             <ul class="sidebar-2">
                 <li><a href="#fact"><i class="fa-solid fa-money-bills"></i>Facturación</a></li>
+                <li><a href="#stock"><i class="fa-solid fa-cart-plus"></i>Stock</a></li>
                 <li>
                     <div class="desplegable">
-                        <a href="#stock"><i class="fa-solid fa-cart-plus" style="color: #ffffff;"></i>Stock<i class="fa-solid fa-chevron-down"></i></a>
+                    <a href="#rubro"><i class="fa-solid fa-chart-column" style="color: #ffffff;"></i>Rubros<i class="fa-solid fa-chevron-down"></i></a>
                     </div>
-                    <ul class="sub-menu">
+                     <ul class="sub-menu">
                         <li><a class="active" href="#">Productos</a></li>
                         <li><a href="#">Ingredientes</a></li>
                     </ul>
                 </li>
-                <li><a href="#rubro"><i class="fa-solid fa-chart-column"></i>Rubros</a></li>
                 <li><a href="#estadi"><i class="fa-solid fa-chart-column"></i>Estadisticas</a></li>
                 <li><a href="#usuarios"><i class="fa-solid fa-users"></i>Usuarios</a></li>
             </ul>
@@ -69,7 +69,6 @@
             
             <!-- Barra de búsqueda -->
             <div class="topnav">
-                <button class="registrar">Registrar compra</button>
                 <div class="search-container">
                   <form action="/action_page.php">
                       <button type="button" class="round-button"><i class="fa fa-plus" style="font-size:24px"></i></button>
@@ -82,85 +81,50 @@
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">Producto</th>
                     <th scope="col">Rubro</th>
-                    <th scope="col">Precio Venta</th>
-                    <th scope="col">Tiempo de Cocina</th>
-                    <th scope="col">Stock Actual</th>
                     <th scope="col">Estado</th>
                     <th scope="col">Acciones</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
+                    <td>Rubro1</td>
                     <td>Alta</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td><td>5</td>
-                    <td>Alta</td>
+                    <td>Rubro2</td>
+                    <td>Baja</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
+                    <td>Rubro2</td>
+                    <td>Baja</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
+                    <td>Rubro2</td>
+                    <td>Baja</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
+                    <td>Rubro2</td>
+                    <td>Baja</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
+                    <td>Rubro2</td>
+                    <td>Baja</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
+                    <td>Rubro2</td>
+                    <td>Baja</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
+                    <td>Rubro2</td>
+                    <td>Baja</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                 </tbody>
@@ -194,6 +158,8 @@
         </div>
       </div>
     </footer>
+        
+    
 <!-- Bootstrap JS CDN -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     

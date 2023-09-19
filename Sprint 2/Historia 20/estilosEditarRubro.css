@@ -1,0 +1,116 @@
+/* Estilos para el recuadro del formulario */
+.formulario {
+    border: 1px solid black;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+    width: 400px; /* Ajusta el ancho según tus preferencias */
+    margin: 0 auto; /* Centra el formulario en la página */
+    background-color: #e7e7e7;
+    font-family: 'Changa', sans-serif;
+    position: relative; /* Para posicionar el botón de cerrar ventana */
+
+}
+
+/* Estilos para cada fila */
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los campos de entrada */
+.formulario input {
+    width: 45%; /* Ancho del campo de entrada */
+}
+
+.formulario select {
+    width: 47%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Estilos para las etiquetas */
+.formulario label, .fila button {
+    width: 45%; /* Ancho de la etiqueta */
+    text-align: right; /* Alinea el texto a la derecha */
+    padding-right: 8px; /* Espacio entre la etiqueta y el campo */
+    
+}
+
+/* estilo para los campos */
+input[type=text] {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+  }
+
+/* estilo para los botones archivo y receta */
+.fila button{
+    text-align: left;
+    color: #CA5310;
+    background-color: white;
+    border-radius: 4px;
+    width: 47%;
+    padding: 3px 5px;
+    border: 1px solid #CA5310;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    cursor: pointer;
+}
+
+
+/* Estilos para los botones cancelar y guardar */
+.botones button, .botones button[type="submit"] { 
+    display: inline-block; /* Cambiar a un elemento en línea para que estén en la misma línea */
+    margin: 10px 50px; /* Espacio entre los botones */
+    padding: 6px 10px;
+    background-color: #CA5310;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Centra el contenido horizontalmente */
+    justify-content: center;
+}
+
+
+.botones button[type="submit"]{
+    background-color: #CA5310; /* Cambia el color del botón "Guardar" */
+    margin: 3px 50px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Alineación del botón "Cancelar" */
+.botones button[type="button"] {
+    float: none;
+    margin: 3px 65px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+h3{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    color: #691E06;
+}
+
+/* Estilos para el botón de cerrar ventana */
+.material-icons {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        color: #CA5310;
+}
+ 
+/* Estilos para el botón con icono */
+.boton-icono {
+    display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
+}
+
+/* Estilos para el icono */
+.boton-icono i {
+    margin-left: 80px; /* Agrega margen a la derecha del icono para separarlo del texto */
+}

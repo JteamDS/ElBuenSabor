@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="crearReceta.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h2 class="titulo">Crear Receta</h2>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col"><select name="ingrediente" id="ingrediente">
+                            <option value="ingrediente">Ingrediente</option>
+                        </select></th>
+                        <th scope="col"><input type="text" value="Cantidad"></th>
+                        <th scope="col"><input type="text" value="Unidad de Medida"></th>
+                        <th scope="col"><button class="boton boton-agregar">Agregar</button></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row">Papa</td>
+                        <td>400</td>
+                        <td>gr</td>
+                        <td><button class="boton-basura"><img src="basura.svg" alt="borrar"></button></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Pan</td>
+                        <td>2</td>
+                        <td>un</td>
+                        <td><button class="boton-basura"><img src="basura.svg" alt="borrar"></button></td>
+                      <tr>
+                        <td scope="row">Carne</td>
+                        <td>500</td>
+                        <td>gr</td>
+                        <td><button class="boton-basura"><img src="basura.svg" alt="borrar"></button></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Carne</td>
+                        <td>500</td>
+                        <td>gr</td>
+                        <td><button class="boton-basura"><img src="basura.svg" alt="borrar"></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <h4 class="costo">Costo Total: $2000</h4>
+            <div>
+                <h6>Procedimiento</h6>
+                <div class="container contenedor-procedimiento"></div>
+            </div>
+            <div class="contenedor-botones">
+                <div><button class="boton">Cancelar</button></div>
+                <div><button class="boton">Guardar</button></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

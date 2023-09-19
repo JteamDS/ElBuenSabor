@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="EstiloStockProducto.css">
+    <title>El buen sabor</title>
+    <link rel="stylesheet" href="EstiloStockIngredientes.css">
     <script src="https://kit.fontawesome.com/92201a9b0c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -41,7 +42,8 @@
             </div>
           </div>
         </nav>
-      </header>    </div>
+      </header> 
+    </div>
     <!-- Este div solo lo hicimos para agrupar a los hermanos sidebar y main content -->
     <div id="container"> 
         <div id="sidebar">
@@ -52,8 +54,8 @@
                         <a href="#stock"><i class="fa-solid fa-cart-plus" style="color: #ffffff;"></i>Stock<i class="fa-solid fa-chevron-down"></i></a>
                     </div>
                     <ul class="sub-menu">
-                        <li><a class="active" href="#">Productos</a></li>
-                        <li><a href="#">Ingredientes</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a class="active" href="#">Ingredientes</a></li>
                     </ul>
                 </li>
                 <li><a href="#rubro"><i class="fa-solid fa-chart-column"></i>Rubros</a></li>
@@ -69,7 +71,17 @@
             
             <!-- Barra de búsqueda -->
             <div class="topnav">
-                <button class="registrar">Registrar compra</button>
+              <button class="registrar">Registrar compra</button>
+              <div class="Stock">
+                <label for="nivel"> Nivel Stock:</label>
+                <select name="nivel" id="nivel">
+                    <option disabled selected>Elige una opción</option>
+                    <option value="alto">Todos</option>
+                    <option value="alto">Alto</option>
+                    <option value="bajo">Bajo</option>
+                </select>
+              </div>
+           
                 <div class="search-container">
                   <form action="/action_page.php">
                       <button type="button" class="round-button"><i class="fa fa-plus" style="font-size:24px"></i></button>
@@ -82,84 +94,81 @@
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">Producto</th>
+                    <th scope="col">Ingrediente</th>
                     <th scope="col">Rubro</th>
-                    <th scope="col">Precio Venta</th>
-                    <th scope="col">Tiempo de Cocina</th>
+                    <th scope="col">Precio Costo</th>
+                    <th scope="col">Stock Minimo</th>
                     <th scope="col">Stock Actual</th>
+                    <th scope="col">Unidad de Medida</th>
+                    <th scope="col">Nivel Stock</th>
                     <th scope="col">Estado</th>
                     <th scope="col">Acciones</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
+                    <td>Lechuga</td>
+                    <td>Verdura</td>
+                    <td>$100</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>gr</td>
+                    <td>Minimo</td>
                     <td>Alta</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td><td>5</td>
+                    <td>Lechuga</td>
+                    <td>Verdura</td>
+                    <td>$100</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>gr</td>
+                    <td>Minimo</td>
                     <td>Alta</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
+                    <td>Lechuga</td>
+                    <td>Verdura</td>
+                    <td>$100</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>gr</td>
+                    <td>Minimo</td>
                     <td>Alta</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
+                    <td>Lechuga</td>
+                    <td>Verdura</td>
+                    <td>$100</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>gr</td>
+                    <td>Minimo</td>
                     <td>Alta</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
+                    <td>Lechuga</td>
+                    <td>Verdura</td>
+                    <td>$100</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>gr</td>
+                    <td>Minimo</td>
                     <td>Alta</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>
                   <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
-                    <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
-                  </tr>
-                  <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
-                    <td>Alta</td>
-                    <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
-                  </tr>
-                  <tr>
-                    <td>Hamburguesa</td>
-                    <td>Comida Rapida</td>
-                    <td>$2000</td>
-                    <td>40m</td>
-                    <td>5</td>
+                    <td>Lechuga</td>
+                    <td>Verdura</td>
+                    <td>$100</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>gr</td>
+                    <td>Minimo</td>
                     <td>Alta</td>
                     <td><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></td>
                   </tr>

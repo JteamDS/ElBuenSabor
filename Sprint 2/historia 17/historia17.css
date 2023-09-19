@@ -1,0 +1,50 @@
+section{
+    padding-top: 150px;
+}
+th{
+    background-color: #ca5310 !important;
+    color: #fff !important;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+}
+td{
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+}
+.container{
+    border-radius: 15px;
+    border: solid #8f250c 4px;
+}
+.contenedor{
+    padding: 48px 63px;
+    background-color: #e7e7e7;
+}
+.titulo{
+    font-size: 48px;
+    color: #ca5310;
+    font-family: 'Changa', sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #fff;
+}
+.table{
+    border: solid #b9b9b9 1.5px;
+}
+.boton-tabla{
+    padding: 12px, 7px;
+    margin-left: 30px;
+}
+.boton-volver{
+    font-size: 24px;
+    padding: 4px 20px;
+    font-family: 'Changa', sans-serif;
+}
+.boton{
+    background-color: #ca5310;
+    color: #fff;
+    border-radius: 9px;
+    border: solid 2px #ca5310;
+}

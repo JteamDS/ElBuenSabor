@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    font-family: 'Changa', sans-serif !important;
+}
+
+.titulos {
+    color: 691E06;
+    background-color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.iconos {
+    width: 50px;
+    height: 50px;
+}
+
+.titulosbarra {
+    display: flex;
+    justify-content: center;
+}
+
+
+.blancoboton {
+    padding: 5px 45px;
+    height: 70px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 21px;
+    transition: all 300ms ease;
+}
+
+.blancoboton:hover {
+    color: white;
+    background-color: black;
+
+}
+
+.nav-enlace:hover {
+    background-color: #CA5310;
+    color: white;
+}
+
+.nav-boton {
+    color: #CA5310;
+    background-color: white;
+    padding: 10px 0px;
+    border: 2px solid white;
+    display: none;
+}
+
+.comidaimg {
+    width: 150px;
+    height: 150px;
+}
+
+.bsinfondo {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.ajustar {
+    display: inline-block;
+    color: #CA5310;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.contenedorcomida {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #CA5310;
+    width: 100%;
+}
+
+.footer .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding: 20px 0px;
+
+}
+
+.footer .grupo1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .grupo1 .box figure img {
+    width: 70px;
+    margin-right: 90%;
+}
+
+.footer .grupo1 .box h3 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+
+.footer .grupo1 .box p {
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.footer .grupo1 .box .redessociales a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 18px;
+    text-align: center;
+    transition: all 300ms ease;
+    margin-top: 20%;
+
+}
+
+.boton-modal {
+    padding: 40px;
+}
+
+.boton-modal label {
+    padding: 20px 60px;
+    background-color: #CA5310;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 300ms ease;
+}
+
+.boton-modal label:hover {
+    background-color: orange;
+}
+
+#btn-modal {
+    display: none;
+}
+
+.conteiner-modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal:checked~.conteiner-modal {
+    display: flex;
+}
+
+.content-modal {
+    width: 100%;
+    max-width: 700px;
+    height: 400x;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.content-modal .btn-cerrar {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal .btn-cerrar label {
+    padding: 10px 20px;
+    background-color: #CA5310;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 20px;
+    margin-right: 70px;
+}
+
+.content-modal .btn-cerrar label:hover {
+    background-color: orange;
+}
+
+.cerrar-modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.conteiner-modal .content-modal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 25px 0px;
+}
+
+.conteiner-modal .content-modal .box {
+    margin: auto;
+    display: inline-table;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px 0px;
+}
+
+.conteiner-modal .content-modal .box .informacion {
+    background-color: #CA5310;
+    padding: 0px 100px;
+    height: 20px;
+    text-align: center;
+}
+
+.conteiner-modal .content-modal .box .informacion h3 {
+    font-size: 14px;
+    color: white;
+}
+
+.conteiner-modal .conteiner-modal .box .btn-emergente {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-emergentenaranja {
+    background-color: #CA5310;
+    border-color: #CA5310;
+    border: 2px solid;
+    color: white;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
+
+.btn-emergentenaranja:hover {
+    background-color: orange;
+}
+
+.btn-emergentenegro {
+    background-color: white;
+    border-color: black;
+    border: 2px solid;
+    color: black;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
+
+.btn-emergentenegro:hover {
+    background-color: black;
+    color: white;
+}
+
+.section1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 50px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.section1 .box {
+    margin-top: 20px;
+}
+
+.section1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .box figure img {
+    width: 150px;
+    margin-right: 50%;
+}
+
+.section1 .box h3 {
+    color: #CA5310;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.section1 .box .cantidades {
+    display: flex;
+    color: #CA5310;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.bajar {
+    margin-top: 90px;
+}
+
+.section2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.section2 .box h3 {
+    color: #CA5310;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.section2 .box .seguircomprando {
+    display: flex;
+    color: #CA5310;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 350px;
+}
+
+.section2 .box .totalcompra {
+    display: inline-table;
+    color: #CA5310;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 18px;
+}

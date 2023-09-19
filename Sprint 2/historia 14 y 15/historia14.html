@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="historia14.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="../imagenes-navYfooter/logo.svg" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse barra-opciones-admin" id="navbarsExample04">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link nombre-admin" href="#">Cajero</a>
+              </ul>
+              <ul class="navbar-nav barra-iconos">
+                <li>
+                  <button class="boton-barra boton-barra-inicio"><img src="../imagenes-navYfooter/casa.svg" class="boton-casa" alt="casa">Facundo</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <section class="historia14">
+        <div class="historia14-encabezado">
+            <div>
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado" class="input input-estado"></select>
+            </div>
+            <div>
+                <label for="pedido">Pedido:</label>
+                <input type="text" name="pedido" id="pedido" value="Buscar Pedido..." class="input input-pedido">
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Nro Pedido</th>
+                    <th scope="col">Fecha y Hora</th>
+                    <th scope="col">Entrega</th>
+                    <th scope="col">Forma de Pago</th>
+                    <th scope="col">Cobrado</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Detalle</th>
+                    <th scope="col">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">123458</td>
+                    <td>18/06/2023 - 14:00</td>
+                    <td>Delivery</td>
+                    <td>Efectivo</td>
+                    <td>NO</td>
+                    <td>A Confirmar</td>
+                    <td><button class="boton boton-tabla">Ver Detalle</button></td>
+                    <td class="botones"><button class="boton boton-tabla">Aceptar</button><button class="boton boton-tabla">Rechazar</button></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">123457</td>
+                    <td>18/06/2023 - 14:00</td>
+                    <td>Delivery</td>
+                    <td>Efectivo</td>
+                    <td>NO</td>
+                    <td>En Cocina</td>
+                    <td><button class="boton boton-tabla">Ver Detalle</button></td>
+                    <td class="botones"><button class="boton boton-tabla">Aceptar</button><button class="boton boton-tabla">Rechazar</button></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">123456</td>
+                    <td>18/06/2023 - 15:00</td>
+                    <td>En el local</td>
+                    <td>Mercado Pago</td>
+                    <td>SI</td>
+                    <td>Entregado</td>
+                    <td><button class="boton boton-tabla">Ver Detalle</button></td>
+                    <td class="botones"><button class="boton boton-tabla">Aceptar</button><button class="boton boton-tabla">Rechazar</button></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">123458</td>
+                    <td>18/06/2023 - 14:00</td>
+                    <td>Delivery</td>
+                    <td>Efectivo</td>
+                    <td>NO</td>
+                    <td>A Confirmar</td>
+                    <td><button class="boton boton-tabla">Ver Detalle</button></td>
+                    <td class="botones"><button class="boton boton-tabla">Aceptar</button><button class="boton boton-tabla">Rechazar</button></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">123458</td>
+                    <td>18/06/2023 - 14:00</td>
+                    <td>Delivery</td>
+                    <td>Efectivo</td>
+                    <td>NO</td>
+                    <td>A Confirmar</td>
+                    <td><button class="boton boton-tabla">Ver Detalle</button></td>
+                    <td class="botones"><button class="boton boton-tabla">Aceptar</button><button class="boton boton-tabla">Rechazar</button></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">123458</td>
+                    <td>18/06/2023 - 14:00</td>
+                    <td>Delivery</td>
+                    <td>Efectivo</td>
+                    <td>NO</td>
+                    <td>A Confirmar</td>
+                    <td><button class="boton boton-tabla">Ver Detalle</button></td>
+                    <td class="botones"><button class="boton boton-tabla">Aceptar</button><button class="boton boton-tabla">Rechazar</button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+          <img src="../imagenes-navYfooter/logofooter.svg" alt="logo">
+          <div class="footer-contenedor">
+            <div class="footer-contenedor-data">
+              <h5 class="footer-contenedor-data-texto">Horarios</h5>            
+              <h6 class="footer-contenedor-data-subtexto">10:00 am a 23:00 pm</h6>
+            </div>
+            <div class="footer-contenedor-data">
+              <h5 class="footer-contenedor-data-texto">Direccion</h5>
+              <h6 class="footer-contenedor-data-subtexto">Italia 1952 Ciudad</h6>
+            </div>
+            <div class="footer-contenedor-data">
+              <h5 class="footer-contenedor-data-texto">Telefonos</h5>
+              <h6 class="footer-contenedor-data-subtexto">+54 261 611 6345</h6>
+              <h6 class="footer-contenedor-data-subtexto">+54 261 612 6678</h6>
+            </div>
+          </div>
+          <div class="footer-contenedor-apps">
+            <img src="../imagenes-navYfooter/Facebook.svg" class="footer-contenedor-apps-logo" alt="facebook">
+            <img src="../imagenes-navYfooter/Twitter.svg"  class="footer-contenedor-apps-logo" alt="twitter">
+            <img src="../imagenes-navYfooter/Instagram.svg" class="footer-contenedor-apps-logo" alt="instagram">
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

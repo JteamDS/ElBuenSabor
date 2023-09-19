@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="User Stoty 7 - ABM Cliente" />
+    <meta name="author" content="JTeam - Leonardo Expósito" />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Stock Ingredientes</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles personalizados para esta template -->
+    <link href="grid.css" rel="stylesheet" />
+</head>
+
+<body class="py-4">
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="../imagenes-navYfooter/logo.svg" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse barra-opciones-admin" id="navbarsExample04">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link nombre-admin" href="#">Administrador</a>
+              </ul>
+              <ul class="navbar-nav barra-iconos">
+                <li>
+                  <button class="boton-barra boton-barra-inicio"><img src="../imagenes-navYfooter/casa.svg" class="boton-casa" alt="casa">Melanie</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+<main>
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-4">
+            <h2 class="mt-4">Productos</h2>
+        </div>
+        <div class="col-md-4">
+            <h2 class="mt-4">Ingredientes</h2>
+        </div>
+    </div>
+
+    <!-- <p>
+      Para agregar alguna descripcción al administrador
+    </p> -->
+    <div class="row mb-3">
+        <div class="col-md-1 themed-grid-col title-row">Ingrediente</div>
+        <div class="col-md-1 themed-grid-col title-row">Rubro</div>
+        <div class="col-md-1 themed-grid-col title-row">Precio costo</div>
+        <div class="col-md-1 themed-grid-col title-row">Stock Min.</div>
+        <div class="col-md-1 themed-grid-col title-row">Stock Actual</div>
+        <div class="col-md-2 themed-grid-col title-row">Unidad de Medida</div>
+        <div class="col-md-2 themed-grid-col title-row">Nivel de Stock</div>
+        <div class="col-md-1 themed-grid-col title-row">Estado</div>
+        <div class="col-md-1 themed-grid-col title-row">Modificar</div>
+        <div class="col-md-1 themed-grid-col title-row">Eliminar</div>
+
+        <!-- {% for Usuario in usuarios %} -->
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <!-- {% endfor %} -->
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+        <div class="col-md-1 themed-grid-col item-row">{{Producto}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Rubro}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{$$$$$}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Min}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Actual}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{Unidad}}</div>
+        <div class="col-md-2 themed-grid-col item-row">{{NivelStock}}</div>
+        <div class="col-md-1 themed-grid-col item-row">{{Estado}}</div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="editIcon.svg" width="24" height="auto"/>
+        </div>
+        <div class="col-md-1 themed-grid-col item-row">
+            <img src="deleteIcon.svg" width="24" height="auto"/>
+        </div>
+
+    </div>
+</main>
+<footer>
+    <div class="footer">
+      <img src="../imagenes-navYfooter/logofooter.svg" alt="logo">
+      <div class="footer-contenedor">
+        <div class="footer-contenedor-data">
+          <h5 class="footer-contenedor-data-texto">Horarios</h5>            
+          <h6 class="footer-contenedor-data-subtexto">10:00 am a 23:00 pm</h6>
+        </div>
+        <div class="footer-contenedor-data">
+          <h5 class="footer-contenedor-data-texto">Direccion</h5>
+          <h6 class="footer-contenedor-data-subtexto">Italia 1952 Ciudad</h6>
+        </div>
+        <div class="footer-contenedor-data">
+          <h5 class="footer-contenedor-data-texto">Telefonos</h5>
+          <h6 class="footer-contenedor-data-subtexto">+54 261 611 6345</h6>
+          <h6 class="footer-contenedor-data-subtexto">+54 261 612 6678</h6>
+        </div>
+      </div>
+      <div class="footer-contenedor-apps">
+        <img src="../imagenes-navYfooter/Facebook.svg" class="footer-contenedor-apps-logo" alt="facebook">
+        <img src="../imagenes-navYfooter/Twitter.svg"  class="footer-contenedor-apps-logo" alt="twitter">
+        <img src="../imagenes-navYfooter/Instagram.svg" class="footer-contenedor-apps-logo" alt="instagram">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

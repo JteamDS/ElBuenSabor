@@ -1,0 +1,49 @@
+.historia16{
+    padding: 20px;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: 'Changa', sans-serif;
+    
+}
+.table{
+    border: solid 1px #b9b9b9;
+}
+.historia16-encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.input{
+    border: solid 1px #E3C9AC;
+    background-color: #E3C9AC;
+    border-radius: 20px;
+    width: 200px;
+    padding-left: 8px;
+}
+th{
+    background-color: #ca5310 !important;
+    color: #fff !important;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+}
+td{
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+}
+.input-pedido{
+    width: 300px;
+}
+.boton{
+    background-color: #ca5310;
+    border: solid 1px #ca5310;
+    border-radius: 9px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+}
