@@ -81,5 +81,5 @@ select.form-control {
 iframe {
   margin: 0;
   padding: 0;
-  border: none; /* Remove the border if not needed */
+  border: none;
 }
