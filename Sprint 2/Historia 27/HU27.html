@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El buen sabor</title>
+    <link rel="stylesheet" href="StyleHU27.css">
+    <link rel="stylesheet" href="../css\footer.css">
+    <script src="https://kit.fontawesome.com/92201a9b0c.js" crossorigin="anonymous"></script>
+    <!-- navbar admin-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!--NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="imagenes/logo.svg" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse barra-opciones-admin" id="navbarsExample04">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link nombre-admin" href="#">Administrador</a>
+              </ul>
+              <ul class="navbar-nav barra-iconos">
+                <li>
+                  <button class="boton-barra boton-barra-inicio"><img src="imagenes/casa.svg" class="boton-casa" alt="casa">Melanie</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <!-- Este div solo lo hicimos para agrupar a los hermanos sidebar y main content -->
+    <div id="container"> 
+        <div id="sidebar">
+            <ul class="sidebar-2">
+                <li><a href="#fact"><i class="fa-solid fa-money-bills"></i>Facturación</a></li>
+                <li><a href="#stock"><i class="fa-solid fa-cart-plus"></i>Stock</a></li>
+                <li><a href="#rubros"><i class="fa-solid fa-shapes"></i>Rubros</a></li>
+                <li>
+                    <div class="desplegable">
+                        <a href="#estadi"><i class="fa-solid fa-chart-column" style="color: #ffffff;"></i>Estadisticas<i class="fa-solid fa-chevron-down"></i></a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="active" href="#">Productos</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Monetarios</a></li>
+                    </ul>
+                </li>
+                <li><a href="#usuarios"><i class="fa-solid fa-users"></i>Usuarios</a></li>
+            </ul>
+        </div> 
+        <!-- INICIA MAIN CONTENT-->
+        <div id="mainContent" style="background-color: rgb(255, 255, 255); height: 100vh;">
+            <h1>Ranking de productos</h1>
+            <div class="botones-desplegables">
+                <label for="catego"> Categoria:</label>
+                <select name="catego" id="catego">
+                    <option disabled selected>-Elige una opción-</option>
+                    <option value="Cocina">Cocina</option>
+                    <option value="Bebida">Bebida</option>
+                </select>
+
+                <label for="desde">Desde:</label>
+                <select name="desde" id="desde">
+                    <option disabled selected>-Elige una opción-</option>
+                    <option value="fecha1">24/09/2023</option>
+                    <option value="fecha2">25/09/2023</option>
+                    <option value="fecha3">26/09/2023</option>
+                    <option value="fecha4">27/09/2023</option>
+                </select>
+                
+                <label for="hasta">Hasta:</label>
+                <select name="hasta" id="hasta">
+                    <option disabled selected>-Elige una opción-</option>
+                    <option value="fecha1">24/09/2023</option>
+                    <option value="fecha2">25/09/2023</option>
+                    <option value="fecha3">26/09/2023</option>
+                    <option value="fecha4">27/09/2023</option>
+                </select>
+            </div>
+            <div>
+                <button class="excel">Exportar a excel</button>
+            </div>
+            <div class= "producto">
+                <button class="productob">Producto<i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            <div class= "cantidad">
+                <button class="cantidadb">Cantidad<i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            <div class=" nomb-productos">
+                <p>Hamburguesa cheddar</p>
+                <p>Panchos con poncho</p>
+                <p>Pizza con muzza</p>
+                <p>Lomo completo</p>
+                <p>Hamburguesa guacamole</p>
+                <p>Hamburguesesa azul</p>
+                <p>Pancho pizza</p>
+                <p>Lomo simple</p>
+                <p>Pancho triple</p>
+            </div>
+            <!--IMAGEN GRAFICO-->  
+            <div class="imagen"> <img src="Grafico2.jpeg" alt="grafico de barras">
+            </div>
+
+        </div>
+        <!-- TERMINA MAIN CONTENT-->
+    </div>
+<!-- FOOTER NICO-->
+<footer>
+    <div class="footer">
+      <img src="../imagenes-navYfooter/logofooter.svg" alt="logo">
+      <div class="footer-contenedor">
+        <div class="footer-contenedor-data">
+          <h5 class="footer-contenedor-data-texto">Horarios</h5>            
+          <h6 class="footer-contenedor-data-subtexto">10:00 am a 23:00 pm</h6>
+        </div>
+        <div class="footer-contenedor-data">
+          <h5 class="footer-contenedor-data-texto">Direccion</h5>
+          <h6 class="footer-contenedor-data-subtexto">Italia 1952 Ciudad</h6>
+        </div>
+        <div class="footer-contenedor-data">
+          <h5 class="footer-contenedor-data-texto">Telefonos</h5>
+          <h6 class="footer-contenedor-data-subtexto">+54 261 611 6345</h6>
+          <h6 class="footer-contenedor-data-subtexto">+54 261 612 6678</h6>
+        </div>
+      </div>
+      <div class="footer-contenedor-apps">
+        <img src="../imagenes-navYfooter/Facebook.svg" class="footer-contenedor-apps-logo" alt="facebook">
+        <img src="../imagenes-navYfooter/Twitter.svg"  class="footer-contenedor-apps-logo" alt="twitter">
+        <img src="../imagenes-navYfooter/Instagram.svg" class="footer-contenedor-apps-logo" alt="instagram">
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

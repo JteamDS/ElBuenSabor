@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilosNuevoProducto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="formulario">
+    <!-- Botón para cerrar la ventana -->
+    <i class="material-icons">&#xe5cd;</i>
+    <form action="#" method="post">
+        <h3>Nuevo Producto</h3>
+        <div class="fila">
+            
+            <input type="text" id="campo1" name="campo1" placeholder="Nombre">
+            <select name="estado" id="estado">
+                <option value="" disabled selected>Rubro</option>
+                <option value="Alta">Hamburguesas</option>
+                <option value="Baja">Pastas</option>
+            </select>
+        </div>
+        
+        <div class="fila">
+            
+            <input type="text" id="campo3" name="campo3" placeholder="Descripcion">
+            <input type="text" id="campo4" name="campo4" placeholder="Tiempo de cocina">
+        </div>
+        
+        <div class="fila">
+            
+            <input type="text" id="campo5" name="campo5" placeholder="Precio de venta">
+            <select name="estado" id="estado">
+                <option value="" disabled selected>Estado</option>
+                <option value="Alta">Alta</option>
+                <option value="Baja">Baja</option>
+            </select>
+        </div>
+        
+        <div class="fila">
+            <button type="button" class="boton-icono"> Subir imagen
+                <i class="fas fa-file-upload"></i>
+            </button>
+            <button type="button">Crear receta</button>
+        </div>
+
+        <div class="botones">
+            <button type="button" onclick="cancelar()">Cancelar</button>
+            <button type="submit">Guardar</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function cancelar() {
+        // Aquí puedes agregar código JavaScript para manejar la acción de cancelar.
+        // Puedes redirigir al usuario a otra página o realizar cualquier otra acción deseada.
+        alert('Formulario cancelado');
+    }
+</script>
+
+</body>
+</html>
